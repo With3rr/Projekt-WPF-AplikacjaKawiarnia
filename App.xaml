@@ -1,0 +1,78 @@
+<Application x:Class="ProjektSzkolenieTechniczne.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ProjektSzkolenieTechniczne"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="{x:Type Button}" x:Key="buttony2">
+            <Setter Property="Background" Value="BurlyWood">
+
+            </Setter>
+            <Setter Property="FontFamily" Value="Sitka Subheading"></Setter>
+            <Setter Property="Foreground" Value="DarkSlateGray"></Setter>
+           
+        </Style>
+        <Style TargetType="{x:Type Button}" x:Key="buttonyPotwierdz">
+            <Setter Property="Background" Value="BurlyWood">
+
+            </Setter>
+            <Setter Property="FontFamily" Value="Sitka Subheading"></Setter>
+            <Setter Property="Background" Value="DarkSeaGreen"></Setter>
+            <Setter Property="Foreground" Value="DarkSlateGray"></Setter>
+
+        </Style>
+        <Style TargetType="{x:Type Grid}" x:Key="stylGridowMain">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0.3,0" EndPoint="2,1">
+                        <GradientStop Color="Moccasin" Offset="0"></GradientStop>
+                        <GradientStop Color="GhostWhite" Offset="1"></GradientStop>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+           
+            
+        </Style>
+
+        
+        <Style TargetType="{x:Type Panel}" x:Key="stylOgolnyStackPanelGrid">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0.3,0" EndPoint="2,1">
+                       
+                        <GradientStop Color="BurlyWood" Offset="1"></GradientStop>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+
+
+        </Style>
+        <Style TargetType="{x:Type TextBlock}" x:Key="stylText">
+            <Setter Property="Foreground" Value="DarkSlateGray">
+            </Setter>
+            <Setter Property="FontFamily" Value="Sitka Subheading"></Setter>
+
+        </Style>
+        <Style TargetType="{x:Type TextBox}" x:Key="stylTextBox">
+            <Setter Property="Foreground" Value="DarkSlateGray">
+            </Setter>
+            <Setter Property="Background" Value="WhiteSmoke">
+            </Setter>
+            <Setter Property="FontFamily" Value="Sitka Subheading"></Setter>
+
+        </Style>
+        <Style TargetType="{x:Type DataGrid}" x:Key="stylDataGrid">
+            <Setter Property="Background">
+                <Setter.Value>
+                    <LinearGradientBrush StartPoint="0.3,0" EndPoint="2,1">
+                        <GradientStop Color="LightGoldenrodYellow" Offset="0"></GradientStop>
+                        <GradientStop Color="GhostWhite" Offset="1"></GradientStop>
+                    </LinearGradientBrush>
+                </Setter.Value>
+            </Setter>
+
+
+        </Style>
+
+    </Application.Resources>
+</Application>
